@@ -1,0 +1,119 @@
+body {
+    background-color: white;
+    font-family: sans-serif;
+}
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    padding: 0px 10px;
+}
+.grouping {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.grouping a {
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 12px;
+}
+.grouping a img {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+.link {
+    font-size: 13px;
+    color: black;
+    text-decoration: none;
+}
+#menu {
+    width: 20px;
+    height: auto;
+}
+#main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#form {
+    display: flex;
+    justify-content: center;
+}
+form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#img-div {
+    padding-top: 100px;
+}
+#img {
+    display: block;
+    width: 250px;
+    height: auto;
+    margin: auto;
+}
+#textbox {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#search {
+    width: 450px;
+    height: 30px;
+}
+#buttons {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.button {
+    color: black;
+    background-color: lightgray;
+    height: 40px;
+    font-family: sans-serif;
+    border: none;
+    display: inline-block;
+    padding: 15px 15px;
+    text-align: center;
+}
+#left-button {
+    margin-right: 20px;
+}
+#right-button {
+    margin-right: 20px;
+}
+#footer {
+    position: absolute;
+    left: 0px;
+    width: 100vw;
+    margin: 0px;
+    padding: 0px;
+}
+#footer2 {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    height: 35px;
+    margin: 0px;
+    padding: 0px;
+    background-color: #DDD;
+}
+#footer3 {
+    display: flex;
+    padding: 0px 10px;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+}
+#footer3 a {
+    font-size: 13px;
+    padding: 0px 0.7em;
+}
